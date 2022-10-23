@@ -1,11 +1,43 @@
-# Vue 3 + Typescript + Vite
+## Dependencies
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+>node: 16.6.
+>
+>@element-plus/icons: 0.0.11
+>
+>@fullcalendar/core: 5.10.1
+>
+>@fullcalendar/daygrid: 5.10.1
+>
+>@fullcalendar/interaction: 5.10.1
+>
+>@types/lodash: 4.14.176
+>
+>axios: 0.24.0
+>
+>element-plus: 1.1.0-beta.20
+>
+>lodash: 4.17.21
+>
+>vue: 3.2.16
+>
+>vue-router: 4.0.12
+>
+>wangeditor: 4.7.
+>
+>@types/mockjs: 1.0.4
+>
+>@vitejs/plugin-vue: 1.9.3
+>
+>@vitejs/plugin-vue-jsx: 1.2.0
+>
+>mockjs: 1.1.0
+>
+>sass: 1.43.2
+>
+>sass-loader: 12.2.0
+>
+>typescript: 4.4.3
+>
+>vite: 2.6.4
+>
+>vue-tsc: 0.3.0>

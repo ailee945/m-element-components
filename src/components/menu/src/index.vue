@@ -3,7 +3,7 @@
     class="el-menu-vertical-demo"
     :default-active="defaultActive"
     :router="router"
-    v-bind="$attrs"
+    v-bind="attrs"
   >
     <template v-for="(item, i) in data" :key="i">
       <el-menu-item v-if="!item[children] || !item[children].length" :index="item[index]">
@@ -25,9 +25,10 @@
 </template>
 
 <script lang='ts' setup>
-import { PropType } from 'vue'
+import { PropType,useAttrs } from 'vue'
 import { toLine } from '../../../utils'
 
+const attrs = useAttrs()
 
 let props = defineProps({
   // 导航菜单的数据
