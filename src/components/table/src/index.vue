@@ -23,6 +23,7 @@
             <el-input size="small" v-model="scope.row[item.prop!]"></el-input>
           </template>
           <template v-else>
+            <!-- 被点击单元格的 $index+column.id 是唯一的，以此来标识被点击单元格编辑时，其他单元格恢复 -->
             <template v-if="(scope.$index + scope.column.id) === currentEdit">
               <div style="display: flex">
                 <el-input size="small" v-model="scope.row[item.prop!]"></el-input>
